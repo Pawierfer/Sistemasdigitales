@@ -1,0 +1,16 @@
+# PLANTILLA NO LISTA PARA COMPILAR: cableado fisico aun no definido.
+# Debe consultar el esquematico exacto de Tang Primer 25K/Dock y
+# confirmar si sw y led son modulos externos o GPIO de protoboard.
+#
+# Sintaxis de referencia Gowin:
+# IO_LOC  "clk" PIN_REAL;
+# IO_PORT "clk" IO_TYPE=LVCMOS33;
+#
+# Puertos fisicos de tang_top_20240736:
+# clk
+# rst_button
+# sw[0] ... sw[12]
+# led[0] ... led[6]
+#
+# No agregar pines inventados. Completar IO_LOC e IO_PORT para cada
+# puerto fisico utilizado, con banco y estandar compatibles con la placa.
